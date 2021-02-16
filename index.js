@@ -32,24 +32,25 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if(err){
+            console.log(err);
+            return err;
+        }
+        else{
+            console.log("Success!");
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log(response);
         let readmeText = gen.generateMarkdown(response);
-        fs.writeFile("./generated/readme.md", readmeText, err => {
-            if(err){
-                console.log(err);
-                return err;
-            }
-            else{
-                console.log("Success!");
-            }
-        });
+        writeToFile("./generated/readme.md", readmeText);
     });
-    
 }
 
 // Function call to initialize app
