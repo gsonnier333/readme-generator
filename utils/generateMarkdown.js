@@ -15,7 +15,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
   
   ## Table of Contents
-  TODO: add a table of contents
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [Contributing](#contributing)
+  [Tests](#tests)
+  [License](#license)
+  [Questions](#questions)
   
   ## Description
   ${data.description}
@@ -31,6 +37,13 @@ function generateMarkdown(data) {
   
   ## Tests
   ${data.test}
+  
+  ## License
+  ${data.license}
+  
+  ## Questions
+  https://www.github.com/${data.username}/
+  Email this address with any additional questions: ${data.email}
 `;
 }
 

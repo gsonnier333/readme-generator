@@ -28,6 +28,18 @@ const questions = [
     {
         name: "test",
         message: "Enter test instructions for your project:"
+    },
+    {
+        name: "license",
+        message: "Pick a license:"
+    },
+    {
+        name: "username",
+        message: "Enter your GitHub username:"
+    },
+    {
+        name: "email",
+        message: "Enter the email address you'd like to receive questions regarding this app on:"
     }
 ];
 
