@@ -30,8 +30,10 @@ const questions = [
         message: "Enter test instructions for your project:"
     },
     {
+        type: "list",
         name: "license",
-        message: "Pick a license:"
+        message: "Pick a license:",
+        choices: ["MIT License", "ISC License", "GNU GPLv3", "Apache License 2.0", "None"]
     },
     {
         name: "username",
