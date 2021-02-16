@@ -1,4 +1,4 @@
-# Title
+# (Title)
   
   ## Table of Contents
   [Description](#description) |
@@ -7,26 +7,27 @@
   [Contributing](#contributing) |
   [Tests](#tests) |
   [License](#license) |
-  [Questions](#questions) |
+  [Questions](#questions)
   
   ## Description
-  Desc
+  (Description)
   
   ## Installation
-  Install
+  (Install Instructions)
   
   ## Usage
-  Use
+  (Usage Information)
   
   ## Contributing
-  Contr
+  (Contribution Guidelines)
   
   ## Tests
-  Test
+  (Test Instructions)
   
   ## License
   MIT License
   
   ## Questions
-  https://www.github.com/gsonnier333/
+  GitHub profile: https://www.github.com/gsonnier333/
+  
   Email this address with any additional questions: gsonnier3@gmail.com
